@@ -34,6 +34,6 @@ print("-" * 32)
 x = -5.0
 while x <= 5.0:
     print(f"{x:6.2f} | {f1(x):10.4f} | {f2(x):10.4f}")
-    x += 0.5
+    x += 0.7
 
 ##### new add-max-function
