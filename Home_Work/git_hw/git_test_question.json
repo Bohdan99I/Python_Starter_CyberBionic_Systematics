@@ -1,0 +1,55 @@
+{
+  "questions": [
+    {
+      "question": "Клонування локального репозиторію за допомогою http відбувається:",
+      "options": [
+        "git clone ssh://[user@]server/project.git",
+        "git clone [user@]server:project.git",
+        "git pull",
+        "git clone https://example.com/gitproject.git"
+      ],
+      "correct_answer": "git clone https://example.com/gitproject.git",
+      "explanation": "Команда `git clone` використовується для клонування віддаленого репозиторію. Протокол `https` є стандартним для клонування через HTTP."
+    },
+    {
+      "question": "Найчастіше використовується команда:",
+      "options": [
+        "git status",
+        "git add .",
+        "git init",
+        "git commit -m \"some text\""
+      ],
+      "correct_answer": "git status",
+      "explanation": "`git status` використовується найчастіше, оскільки допомагає постійно контролювати стан проєкту, показуючи, які файли були змінені, а які готові до коміту. Інші команди є частиною основного робочого процесу, але `git status` є ключовою для перевірки."
+    },
+    {
+      "question": "Оберіть VCS, які можна інтегрувати в IDE:",
+      "options": ["Bitbucket", "git", "SVN", "github"],
+      "correct_answer": "Всі варіанти",
+      "explanation": "`Git` і `SVN` - це системи контролю версій (VCS), які мають вбудовану підтримку в більшості IDE. `Bitbucket` і `GitHub` - це хостинги для Git-репозиторіїв, які також інтегруються з IDE за допомогою плагінів."
+    },
+    {
+      "question": "Якою командою можна підключити дистанційний репозиторій до локального?",
+      "options": [
+        "git add <name> <url>",
+        "git remote add <name> <url>",
+        "git connect <name> <url>",
+        "git remote connect <name> <url>"
+      ],
+      "correct_answer": "git remote add <name> <url>",
+      "explanation": "Команда `git remote add` використовується для додавання нового віддаленого репозиторію до вашого локального репозиторію, де `<name>` - це назва (наприклад, `origin`), а `<url>` - URL-адреса репозиторію."
+    },
+    {
+      "question": "Яка команда скасує зміни у робочій директорії?",
+      "options": [
+        "git restore <file>",
+        "git previous <file>",
+        "git discard <file>",
+        "git undo <file>"
+      ],
+      "correct_answer": "git restore <file>",
+      "explanation": "Команда `git restore` повертає змінений файл у робочій директорії до його останнього збереженого стану. Вона є сучасним та безпечнішим варіантом для скасування змін, ніж `git checkout`."
+    }
+    
+  ]
+}
