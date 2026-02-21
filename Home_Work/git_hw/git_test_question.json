@@ -111,6 +111,45 @@
       ],
       "correct_answer": "репозиторій, робоча директорія, індекс",
       "explanation": "Git має три основні області: `робоча директорія` (де ви працюєте з файлами), `індекс` (проміжна область для підготовлених файлів) та `репозиторій` (де зберігається вся історія комітів)."
+    },
+    {
+      "question": "Яку команду потрібно використовувати для надсилання змін на віддалений сервер?",
+      "options": [
+        "git upload <remote> <local_brunch>",
+        "git pull <remote> <local_brunch>",
+        "git send <remote> <local_brunch>",
+        "git push <remote> <local_brunch>"
+      ],
+      "correct_answer": "git push <remote> <local_brunch>",
+      "explanation": "`git push` відправляє локальні коміти з вашої гілки (`<local_brunch>`) на віддалений репозиторій (`<remote>`)."
+    },
+    {
+      "question": "Чим відрізняється команда git checkout від git reset?",
+      "options": [
+        "reset переміщує HEAD та master, а checkout лише master.",
+        "reset переміщує HEAD та master, а checkout лише HEAD.",
+        "checkout переміщує HEAD та master, а reset тільки HEAD.",
+        "checkout переміщує HEAD та master, а reset лише master."
+      ],
+      "correct_answer": "reset переміщує HEAD та master, а checkout лише HEAD.",
+      "explanation": "`git reset` змінює історію гілки, переміщуючи і гілку (`master`), і `HEAD`. `git checkout` лише тимчасово переміщує `HEAD` для перегляду попереднього стану, не змінюючи історії гілки."
+    },
+    {
+      "question": "Яка директорія Git зберігає свої файли?",
+      "options": [".git", ".log", ".repository", "history"],
+      "correct_answer": ".git",
+      "explanation": "Вся історія версій, коміти, гілки та конфігурації Git зберігаються в прихованій директорії `.git`."
+    },
+    {
+      "question": "Як використовуючи HEAD отримати передостанній коміт?",
+      "options": [
+        "git checkout HEAD",
+        "git checkout --HEAD",
+        "git checkout HEAD~",
+        "git checkout HEAD~2"
+      ],
+      "correct_answer": "git checkout HEAD~ або git checkout HEAD~1",
+      "explanation": "Символ `~` або `~1` вказує на батьківський коміт (один коміт назад) від поточного вказівника `HEAD`."
     }
   ]
 }
