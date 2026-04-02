@@ -95,9 +95,7 @@ cd python-basic-course
 
 ------------------------------------------------------------------------
 
----
 Навчальний курс Python Базовий\
 **CyberBionic Systematics**  
 **Вебсайт:** [www.edu.cbsystematics.com](http://www.edu.cbsystematics.com)
 ------------------------------------------------------------------------
-
