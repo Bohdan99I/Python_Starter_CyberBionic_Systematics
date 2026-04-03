@@ -2,6 +2,13 @@
 Цей репозиторій містить матеріали та практичні роботи за програмою курсу **«Python Базовий»**. 
 Курс спрямований на поглиблення знань мови Python, вивчення об'єктно-орієнтованого програмування та роботу зі складними структурами даних
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Level](https://img.shields.io/badge/Level-Beginner%20%2B-green)
+![Lessons](https://img.shields.io/badge/Lessons-9-orange)
+![Status](https://img.shields.io/badge/Status-In%20Progress-success)
+
+------------------------------------------------------------------------
+
 ## Програма курсу
 
 ### Урок 1 --- ООП. Успадкування
